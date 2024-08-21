@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #f70776;
-  --secondary-color: #c3195d;
+  --primary-color: #d80667;
+  --secondary-color: #a71057;
   --tertiary-color: #680747;
   --background-color: #141010;
   --text-color: #111;
@@ -21,25 +21,25 @@ body {
   font-size: 5.8rem; }
 
 .btn.btn-outline-primary {
-  color: #f70776; }
+  color: #d80667; }
   .btn.btn-outline-primary:hover {
-    background-color: #c5065e;
-    border-color: #c5065e; }
+    background-color: #a6054f;
+    border-color: #a6054f; }
 
 .btn.btn-primary {
-  background-color: #f70776;
-  border-color: #f70776; }
+  background-color: #d80667;
+  border-color: #d80667; }
   .btn.btn-primary:hover {
-    background-color: #c5065e;
-    border-color: #c5065e; }
+    background-color: #a6054f;
+    border-color: #a6054f; }
 
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
   color: #fff;
-  background-color: #c5065e !important;
-  border-color: #c5065e !important; }
+  background-color: #a6054f !important;
+  border-color: #a6054f !important; }
 
 .dropdown-item.active, .dropdown-item:active {
-  background-color: #c5065e !important; }
+  background-color: #a6054f !important; }
 
 section {
   padding: 2rem 0; }
@@ -135,8 +135,8 @@ input.form-control {
     border-color: #1f1f1f; }
 
 input.form-control:focus {
-  border-color: #f70776;
-  box-shadow: rgba(247, 7, 118, 0.2) 0px 0px 0px 0.25rem; }
+  border-color: #d80667;
+  box-shadow: rgba(216, 6, 103, 0.2) 0px 0px 0px 0.25rem; }
 
 .navbar-nav > .dropdown {
   position: initial; }
