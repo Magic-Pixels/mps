@@ -17,6 +17,12 @@
   font-weight: 600;
   display: block; }
 
+.light-shadow {
+  text-shadow: #000 0 0 20px; }
+
+.heavy-shadow {
+  text-shadow: #000 0px 0px 4px, #000 0 0 16px; }
+
 @media screen and (max-width: 767px) {
   .countdown-num {
     font-size: 2rem; }
