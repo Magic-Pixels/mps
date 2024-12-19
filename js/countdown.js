@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Get the target datetime
-  const targetDatetime = new Date("2024-08-25T08:26:49");
+  // nonlocal const targetDatetime;
 
   // Get the countdown elements
   const countdown = document.getElementById("countdown");
