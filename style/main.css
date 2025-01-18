@@ -59,26 +59,30 @@ section {
 .v-100 {
   height: calc(100dvh - 72px); }
 
-.t-shirt-1,
-.t-shirt-2,
-.sticker-1,
-.sticker-2,
+.t-shirt-left,
+.t-shirt-right,
+.sticker-front,
+.sticker-back,
 .blob {
   position: absolute;
   top: 0;
   bottom: 0; }
 
-.sticker-1 {
-  top: calc(50% - 50px);
-  width: 8em; }
+.sticker-back {
+  top: calc(30% - 50px);
+  width: 9em; }
 
-.t-shirt-1 {
-  width: 13em;
+.sticker-front {
+  top: calc(50%);
+  width: 12em; }
+
+.t-shirt-right {
+  width: 15em;
   transform: rotate(15deg);
   left: calc(50% - 30px); }
 
-.t-shirt-2 {
-  width: 13em;
+.t-shirt-left {
+  width: 15em;
   transform: rotate(-15deg);
   right: calc(50% - 30px); }
 
@@ -325,7 +329,9 @@ input.form-control {
   .search-bar-container {
     order: 3;
     width: 100%;
-    position: relative; } }
+    position: relative; }
+  .h-50w.align-items-center {
+    margin: 5rem 0; } }
 
 @media screen and (min-width: 576px) {
   .search-bar:has(input:focus) + .search-results.dropdown-menu,
@@ -365,3 +371,11 @@ input.form-control {
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute; } }
+
+.cky-btn {
+  border: 2px solid var(--primary-color) !important; }
+  .cky-btn :not(.cky-btn-accept) {
+    color: var(--primary-color) !important; }
+
+.cky-btn-accept {
+  background-color: var(--primary-color) !important; }
