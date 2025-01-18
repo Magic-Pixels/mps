@@ -374,7 +374,7 @@ input.form-control {
 
 .cky-btn {
   border: 2px solid var(--primary-color) !important; }
-  .cky-btn :not(.cky-btn-accept) {
+  .cky-btn:not(.cky-btn-accept) {
     color: var(--primary-color) !important; }
 
 .cky-btn-accept {
