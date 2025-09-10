@@ -23,6 +23,17 @@
 .heavy-shadow {
   text-shadow: #000 0px 0px 4px, #000 0 0 16px; }
 
+.btn.main-cta {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  transition: background-color 0.2s ease-out, color 0.2s ease-out, border-color 0.2s ease-out; }
+  .btn.main-cta:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--tertiary-color); }
+  .btn.main-cta a {
+    color: white;
+    font-weight: 600; }
+
 @media screen and (max-width: 767px) {
   .countdown-num {
     font-size: 2rem; }
