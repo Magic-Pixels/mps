@@ -6,6 +6,9 @@
 .square > .card-body .btn {
   border-radius: 0; }
 
+header {
+  overflow: hidden; }
+
 .stretched-link::after {
   transition: background-color 0.2s ease-out; }
 
